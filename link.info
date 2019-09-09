@@ -3,6 +3,9 @@ description = Defines simple link field types.
 backdrop = 1.x
 package = Fields
 
+; Link module has been merged into Backdrop core 1.2.
+dependencies[] = system (<1.2)
+
 files[] = link.module
 files[] = link.migrate.inc
 
